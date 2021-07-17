@@ -1,0 +1,7 @@
+:root {
+  --yellow: #fae100;
+  --blue: #cbe3ff;
+  --blue2: #007fff;
+  --horizontal-space: 25px;
+  --main-border: 1.5px solid var(--blue);
+}
