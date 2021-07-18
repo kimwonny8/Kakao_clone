@@ -2,8 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: var(--horizontal-space);
+  padding: 20px;
   padding-top: 50px;
+  padding-bottom: 15px;
   opacity: 90%;
 }
 
@@ -29,4 +30,17 @@
   position: absolute;
   top: -6px;
   right: -6px;
+}
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .fa-cog:hover {
+  animation: rotateCog 1.5s linear infinite;
 }

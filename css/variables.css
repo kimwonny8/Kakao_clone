@@ -2,6 +2,7 @@
   --yellow: #fae100;
   --blue: #cbe3ff;
   --blue2: #007fff;
+  --blue3: rgb(215, 240, 255);
   --horizontal-space: 25px;
   --main-border: 1.5px solid var(--blue);
 }

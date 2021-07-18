@@ -23,7 +23,7 @@
 
 .more-suggestions__icon {
   margin-left: 20px;
-  margin-right: 60px;
+  margin-right: 45px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,7 +41,7 @@
 }
 
 .more-suggestions__icon-image i {
-  font-size: 32px;
+  font-size: 28px;
   color: white;
 }
 
