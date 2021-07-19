@@ -13,6 +13,10 @@
   align-items: center;
 }
 
+.user-component__column {
+  margin-bottom: 3px;
+}
+
 .user-component__avatar {
   width: 70px;
   height: 70px;
@@ -56,10 +60,15 @@
   color: rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: column;
+  font-size: 14px;
   align-items: flex-end;
 }
 
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+
+.margintop {
+  margin-top: 15px;
 }

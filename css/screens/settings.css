@@ -23,6 +23,10 @@
   border-bottom: none;
 }
 
+hr {
+  color: rgba(0, 0, 0, 0.8);
+}
+
 .settings__setting__icon {
   background-color: tomato;
   width: 20px;
